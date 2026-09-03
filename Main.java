@@ -1,15 +1,14 @@
-interface m1{
-default  void hello(){System.out.println("hello world");}
-    void kill();
-    interface m2{default void kill2(){System.out.println("default method");}}
-}
-public class Main
+class Main{
+public static void main(String args[])
 {
-	public static void main(String[] args) {
-
-	
-		m1 m=new m1(){public void kill(){}};
-m.hello();
-		new m1.m2(){}.kill2();
+int a[][]={{1,2,3,4},{5,6,7,8}};
+for(int i=0;i<a.length;i++){
+	for(int j=0;j<a[0].length;j++){
+		System.out.print(a[i][j]+" ");
+		System.out.print(a[j][i]);
 	}
+	System.out.println();
+}
+
+}
 }

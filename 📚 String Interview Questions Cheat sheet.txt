@@ -1,0 +1,64 @@
+📚 String Interview Questions Cheat Sheet
+🔹 Basics
+- What is a String in Java? Is it mutable or immutable?
+- Difference between String, StringBuilder, and StringBuffer.
+- How do you compare two strings in Java?
+- What happens when you use == vs .equals() for strings?
+- How does string interning work in Java?
+- What is the difference between new String("abc") and "abc"?
+
+🔹 Common Operations
+- Reverse a string without using built-in functions.
+- Check if a string is a palindrome.
+- Count vowels and consonants in a string.
+- Find the frequency of each character in a string.
+- Remove duplicates from a string.
+- Print each character only once (like your "ganiganigani" example).
+- Find the first non-repeating character in a string.
+- Find the longest substring without repeating characters.
+- Replace all spaces with - or %20.
+- Convert a string to an integer without using Integer.parseInt.
+
+🔹 Searching & Indexing
+- Find the first occurrence of a substring in a string.
+- Find the last occurrence of a substring.
+- Count occurrences of a substring in a string.
+- Check if one string is a rotation of another.
+- Check if one string is an anagram of another.
+- Find the longest common prefix among a set of strings.
+
+🔹 Advanced Manipulations
+- Reverse words in a sentence: "Hello World" → "World Hello".
+- Capitalize the first letter of each word.
+- Remove all white spaces from a string.
+- Find duplicate words in a sentence.
+- Print all permutations of a string.
+- Print all substrings of a string.
+- Check if a string contains only digits.
+- Convert a string to binary/hex representation.
+
+🔹 Performance & Internals
+- Why are strings immutable in Java?
+- What is the string constant pool?
+- How does intern() method work?
+- Difference between StringBuilder and StringBuffer in terms of thread safety.
+- Which is faster: concatenation using + or StringBuilder.append()?
+
+🔹 Tricky / Edge Case Questions
+- What happens if you call substring() on a string?
+- How does hashCode() work for strings?
+- Can two different strings have the same hash code?
+- What is the time complexity of indexOf() and lastIndexOf()?
+- How do you handle Unicode characters in strings?
+- How do you reverse a string with surrogate pairs (like emojis)?
+
+🔹 Coding Challenges (Interview Style)
+- Print duplicate characters with their counts.
+- Remove all occurrences of a given character.
+- Find the longest palindromic substring.
+- Check if a string is a valid shuffle of two other strings.
+- Implement your own split() function.
+- Implement your own replace() function.
+- Find the smallest window in a string containing all characters of another string.
+
+

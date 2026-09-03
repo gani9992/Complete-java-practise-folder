@@ -1,0 +1,13 @@
+class  Inheritance {
+
+public static void main(String args[]){
+
+}
+}
+
+class Parent{
+int age=20;
+}
+class child extends Parent{
+super.age=90;
+}
